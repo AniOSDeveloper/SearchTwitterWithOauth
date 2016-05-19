@@ -7,4 +7,4 @@
 5.如遇到界面无法加载数据，请更换速度较好的网络访问。  
 6.效果预览请看 /preViews 文件夹下图片。
 
-![](../preViews/preview1.png) ![](../preViews/preview2.png) 
+![](/preViews/preview1.png)   ![](/preViews/preview2.png) 
