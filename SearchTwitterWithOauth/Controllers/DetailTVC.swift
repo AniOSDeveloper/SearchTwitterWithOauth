@@ -85,11 +85,6 @@ class DetailTVC: UITableViewController {
                 return
             }
             
-            //增加比较逻辑，将内容放到合适的位置
-            
-            
-            
-            
             self.allTwittes += newTweets
             
             sinceID = sinceid

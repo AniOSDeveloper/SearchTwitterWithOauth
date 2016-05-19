@@ -13,8 +13,6 @@
 		FF2385FF1CEA0C7900EB12AC /* SettingTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2385F61CEA0C7900EB12AC /* SettingTableVC.swift */; };
 		FF2386001CEA0C7900EB12AC /* TwitteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2385F81CEA0C7900EB12AC /* TwitteModel.swift */; };
 		FF2386021CEA0C7900EB12AC /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2385FC1CEA0C7900EB12AC /* Tools.swift */; };
-		FF2B090C1CE96EBD007CEF8D /* SearchTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2B090B1CE96EBD007CEF8D /* SearchTVC.swift */; };
-		FF2B090E1CE96ED0007CEF8D /* DetailTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2B090D1CE96ED0007CEF8D /* DetailTVC.swift */; };
 		FF3DC9E21CEB30E8002F0A0D /* NSString+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3DC9E11CEB30E8002F0A0D /* NSString+URL.m */; };
 		FF8B680A1CE7501400E640B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B68091CE7501400E640B9 /* AppDelegate.swift */; };
 		FF8B680F1CE7501400E640B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8B680D1CE7501400E640B9 /* Main.storyboard */; };
@@ -22,6 +20,8 @@
 		FF8B68141CE7501400E640B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8B68121CE7501400E640B9 /* LaunchScreen.storyboard */; };
 		FFCDCF311CEC2BA0003FFCE6 /* preview1.png in Resources */ = {isa = PBXBuildFile; fileRef = FFCDCF2F1CEC2BA0003FFCE6 /* preview1.png */; };
 		FFCDCF321CEC2BA0003FFCE6 /* preview2.png in Resources */ = {isa = PBXBuildFile; fileRef = FFCDCF301CEC2BA0003FFCE6 /* preview2.png */; };
+		FFFB180B1CED446E00C9C461 /* DetailTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFB18091CED446E00C9C461 /* DetailTVC.swift */; };
+		FFFB180C1CED446E00C9C461 /* SearchTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFB180A1CED446E00C9C461 /* SearchTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +35,6 @@
 		FF2385FC1CEA0C7900EB12AC /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		FF2386031CEA136F00EB12AC /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		FF2444241CE8113A0045BAC4 /* SearchTwitterWithOauth-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SearchTwitterWithOauth-Bridging-Header.h"; sourceTree = "<group>"; };
-		FF2B090B1CE96EBD007CEF8D /* SearchTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchTVC.swift; path = ../SearchTVC.swift; sourceTree = "<group>"; };
-		FF2B090D1CE96ED0007CEF8D /* DetailTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailTVC.swift; path = ../DetailTVC.swift; sourceTree = "<group>"; };
 		FF3DC9E01CEB30E8002F0A0D /* NSString+URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URL.h"; sourceTree = "<group>"; };
 		FF3DC9E11CEB30E8002F0A0D /* NSString+URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URL.m"; sourceTree = "<group>"; };
 		FF8B68061CE7501400E640B9 /* SearchTwitterWithOauth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchTwitterWithOauth.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +45,8 @@
 		FF8B68151CE7501400E640B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFCDCF2F1CEC2BA0003FFCE6 /* preview1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview1.png; sourceTree = "<group>"; };
 		FFCDCF301CEC2BA0003FFCE6 /* preview2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview2.png; sourceTree = "<group>"; };
+		FFFB18091CED446E00C9C461 /* DetailTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTVC.swift; sourceTree = "<group>"; };
+		FFFB180A1CED446E00C9C461 /* SearchTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				FF2385F61CEA0C7900EB12AC /* SettingTableVC.swift */,
-				FF2B090B1CE96EBD007CEF8D /* SearchTVC.swift */,
-				FF2B090D1CE96ED0007CEF8D /* DetailTVC.swift */,
+				FFFB180A1CED446E00C9C461 /* SearchTVC.swift */,
+				FFFB18091CED446E00C9C461 /* DetailTVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -302,13 +302,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF2385FD1CEA0C7900EB12AC /* DetailCell.swift in Sources */,
-				FF2B090E1CE96ED0007CEF8D /* DetailTVC.swift in Sources */,
-				FF2B090C1CE96EBD007CEF8D /* SearchTVC.swift in Sources */,
 				FF2385FE1CEA0C7900EB12AC /* Common.swift in Sources */,
+				FFFB180B1CED446E00C9C461 /* DetailTVC.swift in Sources */,
 				FF2385FF1CEA0C7900EB12AC /* SettingTableVC.swift in Sources */,
 				FF2386001CEA0C7900EB12AC /* TwitteModel.swift in Sources */,
 				FF8B680A1CE7501400E640B9 /* AppDelegate.swift in Sources */,
 				FF2386021CEA0C7900EB12AC /* Tools.swift in Sources */,
+				FFFB180C1CED446E00C9C461 /* SearchTVC.swift in Sources */,
 				FF3DC9E21CEB30E8002F0A0D /* NSString+URL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
